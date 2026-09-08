@@ -7,9 +7,10 @@
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest",
-    "coverage": "vitest:run --coverage"
+    "coverage": "vitest run --coverage"
   },
   "devDependencies": {
+    "@vitest/coverage-v8": "^4.1.11",
     "vitest": "^4.1.11"
   },
   "dependencies": {
